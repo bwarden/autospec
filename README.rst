@@ -341,6 +341,10 @@ series
   0001-my-awesome-patch.patch -d some/subdir -p1
   ```
 
+series.<version>
+  series files with an extension matching a version defined in the ``versions``
+  file will be applied to that specific version.
+
 golang_libpath
   When building go packages, the go import path will be guessed automatically
   (e.g. building ``https://github.com/go-yaml/yaml/`` would get
